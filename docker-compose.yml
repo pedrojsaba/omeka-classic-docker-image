@@ -22,7 +22,7 @@ services:
     ports:
       - "8081:80"
 
-  omeka-s:
+  omeka-classic:
     image: sunny3p/omeka-classic:latest
     # links:
     # - mysql

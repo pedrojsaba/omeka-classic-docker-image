@@ -5,6 +5,7 @@ services:
     image: mysql:latest
     restart: always
     environment:
+      MYSQL_ROOT_HOST: '%'
       MYSQL_ROOT_PASSWORD: omeka
       MYSQL_DATABASE: omeka
       MYSQL_USER: omeka

@@ -5,11 +5,10 @@ services:
     image: mysql:latest
     restart: always
     environment:
-      MYSQL_ROOT_HOST: '%'
-      MYSQL_ROOT_PASSWORD: omeka
+      MYSQL_ROOT_PASSWORD: sunny@123
       MYSQL_DATABASE: omeka
-      MYSQL_USER: omeka
-      MYSQL_PASSWORD: omeka
+      MYSQL_USER: root
+      MYSQL_PASSWORD: sunny@123
     # volumes:
     # mysql-data:
     #     driver: local

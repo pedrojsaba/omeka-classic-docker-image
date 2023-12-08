@@ -5,10 +5,10 @@ services:
     image: mysql:latest
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: //Any password you prefer for ex test@123
-      MYSQL_DATABASE: //Any db name for ex omeka
-      MYSQL_USER: //Sql user root
-      MYSQL_PASSWORD: //Any password you prefer for ex test@123
+      MYSQL_ROOT_PASSWORD: JXNQa@73Fsg9
+      MYSQL_DATABASE: omeka
+      MYSQL_USER: root
+      MYSQL_PASSWORD: JXNQa@73Fsg9
     # volumes:
     # mysql-data:
     #     driver: local
